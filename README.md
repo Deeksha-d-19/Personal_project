@@ -12,7 +12,7 @@ Steps of installation and running the project:
 
 4.Hence u will have total of 1 file called img.
 
-Now ,install 'wampp' software in your laptop or desktop.
+Now ,install 'xampp' software in your laptop or desktop.
 
 1.Open the software and click on actions 'start' of 'Apache' and 'MySql'.
 
@@ -64,7 +64,9 @@ Now ,install 'wampp' software in your laptop or desktop.
  
  After a message has been sent successfully,note=success appears beside the addressbar through which you can be sure of message sent successfully.
  
- You can check if the details you have entered are reflected in the created database.That's all about the project.
+ You can check if the details you have entered are reflected in the created database.
+ 
+ That's all about my project.
  
  
  Hope You Liked It!
