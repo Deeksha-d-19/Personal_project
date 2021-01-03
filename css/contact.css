@@ -2,13 +2,13 @@
 {
 	margin: 0;
 	padding: 0;
+  font-family: 'Merriweather', serif;
 }
 /*-----------Navigation-----------*/
 #nav-bar
 {
 	position:relative;
 	top: 0;
-	z-index: 10;
 }
 .navbar-brand img
 {
@@ -43,55 +43,65 @@
 	font-size: 16px;
 }
 /*--------Contact us----------*/
-body
+.contact-for
 {
-	margin:0;
-	padding:0;
-	background:url(C:\xampp\htdocs\QUOTE\img\c);
-	background-size: cover;
-	background-position: center;
+  background:url(img/contact1.jpg);
+  transition: all 4s ease-in-out;
+  background-position: center;
 }
-.contact-title
-{
-	text-align: center;
-	transition: all 4s ease-in-out;
+.deek{
+  text-align:center;
+  font-weight: bold;
+  padding-top:10px;
+  color:white;
 }
 .contact-form
 {
-	margin-top: 50px;
-	transition: all 4s ease-in-out;
+   border: 1px black;
+   border-radius: 8px;
 }
 form
 {
 	 width: 600px;
    margin: 0 auto;
-   border: 2px black;
- 	 border-radius: 7px;
+   border: 2px solid black;
+ 	 border-radius: 8px;
 }
-form-control
+.form-control
 {
-	width: 400px;
-	background:transparent;
+	width: 600px;
+  margin-top: 05px;
+	background:solid;
   color:black;
-	border:2px;
-	outline: none;	
+	border:2px solid black;
+	outline: none;
+  border-radius: 10px;
+  height: 45px;	
 }
 input
 {
 	height: 55px;
+  border: 1px grey;
+  background-color: lightyellow;
+  border-radius: 12px;
 }
-form .submit
+.form-control-submit
 {
-	background: #e33212;
+  width: 600px;
+  background:#e65000;
 	border-color: transparent;
 	color: #fff;
+  font-family: 
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 1px;
 	height: 50px;
 	margin-top: 20px;
+  margin-bottom: 30px;
+  border:none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-form .submit:hover
+form .form-control-submit:hover
 {
 	background-color: green;
 	cursor: pointer;
