@@ -64,7 +64,7 @@ Now ,install 'wampp' software in your laptop or desktop.
  
  After a message has been sent successfully,note=success appears beside the addressbar through which you can be sure of message sent successfully.
  
- You cabn check if the details you have entered are reflected in the created database.
+ You can check if the details you have entered are reflected in the created database.That's all about the project.
  
  
  Hope You Liked It!
