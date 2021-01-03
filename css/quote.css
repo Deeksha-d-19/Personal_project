@@ -2,13 +2,13 @@
 {
 	margin: 0;
 	padding: 0;
+  font-family: 'Merriweather', serif;
 }
 /*-----------Navigation-----------*/
 #nav-bar
 {
 	position:relative;
 	top: 0;
-	z-index: 10;
 }
 .navbar-brand img
 {
@@ -47,25 +47,31 @@
  *{
    margin: 0px;
  }
-main{
-      margin-left: 50px;
+ main{
+      padding-left: 0px;
+      margin:auto;
       width: 100%;
       margin-top: 40px;
 }
 .box
 {
- width: 30%;
+ width: 33%;
  float: left;
  padding: 7px;
  padding-left: 10px;  
  display: block;
  border-radius: 3px;
-
++
 }
 
 .box img{
  	width: 100%;
     border-radius: 6px;
+}
+img:hover{
+  cursor:pointer;
+  color:red;
+  transform: scale(1.2);
 }
 
 .footer
