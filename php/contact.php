@@ -39,7 +39,7 @@
   </div>
 </nav>
 </section>
-<!------contact form------->
+<!------contact form-------->
 <section class="contact-for"><br/>
       <h1 class="deek">Contact Us!</h1>
       <h2 class="deek">We are happy to hear from you!</h2>
@@ -52,7 +52,7 @@
     <input type="submit" class="form-control-submit" value="Submit"><br/>
   </form>
 </section>
-<!--------footer------->
+<!--------footerr------>
 <footer class="site-footer">
       <div class="container">
         <div class="row">
