@@ -45,7 +45,7 @@
 /*--------Contact us----------*/
 .contact-for
 {
-  background:url(img/contact1.jpg);
+  background:url(https://wallpaperaccess.com/full/3124512.jpg);
   transition: all 4s ease-in-out;
   background-position: center;
 }
@@ -54,6 +54,7 @@
   font-weight: bold;
   padding-top:10px;
   color:white;
+  text-shadow: 4px 2px 4px #000000;
 }
 .contact-form
 {
@@ -88,23 +89,38 @@ input
 .form-control-submit
 {
   width: 600px;
-  background:#e65000;
+  background:#FFA500;
 	border-color: transparent;
-	color: #fff;
-  font-family: 
-	font-size: 20px;
+	color: #fff; 
+	font-size: 21px;
 	font-weight: bold;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	height: 50px;
 	margin-top: 20px;
   margin-bottom: 30px;
   border:none;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 4px 2px 4px #000000;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
 }
 form .form-control-submit:hover
 {
 	background-color: green;
 	cursor: pointer;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
+}
+.textarea
+{
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
 }
 /*footer*/
 .site-footer
